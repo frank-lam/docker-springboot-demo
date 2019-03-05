@@ -21,7 +21,7 @@ public class DockerApplication {
     @RequestMapping("/hello")
     public String hello() {
         logger.info("接收到请求》》》》》》》》》》》》》》》》》》》》》》》");
-        return "<h1>Hello Spring-Boot Maven Docker</h1>";
+        return "<h1>hello docker-springboot-demo</h1>";
     }
 
     public static void main(String[] args) {
